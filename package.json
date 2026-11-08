@@ -1,0 +1,41 @@
+{
+  "name": "quick-reading-courseware",
+  "version": "1.0.0",
+  "description": "Turn lecture PDFs into source-linked learning mind maps (AI decomposition skill + local viewer).",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:export": "node --test tests/export-validator.test.mjs",
+    "validate:export": "node scripts/validate-export.mjs",
+    "test:e2e": "playwright test",
+    "pretest:security": "npm run build",
+    "test:security": "node --test tests/pdf-engine.test.mjs tests/http-security.test.mjs tests/serve-viewer.test.mjs",
+    "predev": "node scripts/compile-schema.mjs",
+    "prebuild": "node scripts/compile-schema.mjs",
+    "pretest": "node scripts/compile-schema.mjs",
+    "start": "node scripts/serve-viewer.mjs",
+    "test:skill": "node --test skill/quick-reading-courseware-decomposition/tests/skill.test.mjs",
+    "demo:validate": "node skill/quick-reading-courseware-decomposition/scripts/validate-export.mjs fixtures/demo-laser-optics.json --pdf-dir fixtures"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.9.0",
+    "ajv": "^8.17.1",
+    "pdfjs-dist": "6.2.108",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "vite": "^7.1.0",
+    "vitest": "5.0.5",
+    "esbuild": "0.28.2"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

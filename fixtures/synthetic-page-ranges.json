@@ -1,0 +1,455 @@
+{
+  "schema_version": "qr-courseware-map/1.0",
+  "project": {
+    "id": "synthetic-source-ranges",
+    "title": "Synthetic source range navigation",
+    "language": "en",
+    "scope": "synthetic_fixture",
+    "provenance": "synthetic_fixture"
+  },
+  "documents": [
+    {
+      "id": "source-ranges",
+      "filename": "source-ranges.pdf",
+      "pdf_sha256": "309783d8955a9a35ba25ac21e13bd0d99cfcb474704693aacbfd2ff6b8f933ad",
+      "page_count": 17
+    },
+    {
+      "id": "optics",
+      "filename": "optics.pdf",
+      "pdf_sha256": "cfee94f141f6e5d9c5b83d50c5d879ab96c53123d75d783c367ed9fff165b6f9",
+      "page_count": 1
+    }
+  ],
+  "page_inventory": [
+    {
+      "document_id": "source-ranges",
+      "page": 1,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 2,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 3,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 4,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 5,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 6,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 7,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 8,
+      "inspection": "inspected",
+      "element_ids": [
+        "source-ranges-8"
+      ]
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 9,
+      "inspection": "inspected",
+      "element_ids": [
+        "source-ranges-9"
+      ]
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 10,
+      "inspection": "inspected",
+      "element_ids": [
+        "source-ranges-10"
+      ]
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 11,
+      "inspection": "inspected",
+      "element_ids": [
+        "source-ranges-11"
+      ]
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 12,
+      "inspection": "inspected",
+      "element_ids": [
+        "source-ranges-12"
+      ]
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 13,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 14,
+      "inspection": "inspected",
+      "element_ids": []
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 15,
+      "inspection": "inspected",
+      "element_ids": [
+        "source-ranges-15"
+      ]
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 16,
+      "inspection": "inspected",
+      "element_ids": [
+        "source-ranges-16"
+      ]
+    },
+    {
+      "document_id": "source-ranges",
+      "page": 17,
+      "inspection": "inspected",
+      "element_ids": [
+        "source-ranges-17"
+      ]
+    },
+    {
+      "document_id": "optics",
+      "page": 1,
+      "inspection": "inspected",
+      "element_ids": [
+        "optics-1"
+      ]
+    }
+  ],
+  "source_coverage_register": [
+    {
+      "id": "source-ranges-8",
+      "document_id": "source-ranges",
+      "page": 8,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R1",
+        "R2"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "source-ranges-9",
+      "document_id": "source-ranges",
+      "page": 9,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R1"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "source-ranges-10",
+      "document_id": "source-ranges",
+      "page": 10,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R1"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "source-ranges-11",
+      "document_id": "source-ranges",
+      "page": 11,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R1"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "source-ranges-12",
+      "document_id": "source-ranges",
+      "page": 12,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R2"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "source-ranges-15",
+      "document_id": "source-ranges",
+      "page": 15,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R2"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "source-ranges-16",
+      "document_id": "source-ranges",
+      "page": 16,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R2"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "source-ranges-17",
+      "document_id": "source-ranges",
+      "page": 17,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R2"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "optics-1",
+      "document_id": "optics",
+      "page": 1,
+      "kind": "text",
+      "locator": "Synthetic test text",
+      "status": "mapped",
+      "node_ids": [
+        "R2"
+      ],
+      "verification": "verified"
+    }
+  ],
+  "v1": {
+    "candidate": [
+      "Source navigation"
+    ],
+    "revision": [
+      "Continuous pages",
+      "Scattered pages"
+    ],
+    "review_note": "Synthetic UI test only; not decomposition evidence."
+  },
+  "v2": {
+    "nodes": [
+      {
+        "id": "R0",
+        "parent_id": null,
+        "title": "Synthetic source range navigation",
+        "objective": "Test source display only.",
+        "kind": "group",
+        "evidence_ids": []
+      },
+      {
+        "id": "R1",
+        "parent_id": "R0",
+        "title": "Continuous pages example",
+        "objective": "Verify complete cited physical pages in the preview.",
+        "kind": "learning_point",
+        "evidence_ids": [
+          "source-ranges-8",
+          "source-ranges-9",
+          "source-ranges-10",
+          "source-ranges-11"
+        ]
+      },
+      {
+        "id": "R2",
+        "parent_id": "R0",
+        "title": "Scattered pages and two documents example",
+        "objective": "Verify complete cited physical pages in the preview.",
+        "kind": "learning_point",
+        "evidence_ids": [
+          "source-ranges-8",
+          "source-ranges-12",
+          "source-ranges-15",
+          "source-ranges-16",
+          "source-ranges-17",
+          "optics-1"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "round": 1,
+        "findings": [],
+        "corrections": [],
+        "confirming_pass": false
+      }
+    ]
+  },
+  "v3": {
+    "nodes": [
+      {
+        "id": "R0",
+        "parent_id": null,
+        "title": "Synthetic source range navigation",
+        "objective": "Test source display only.",
+        "kind": "group",
+        "evidence_ids": []
+      },
+      {
+        "id": "R1",
+        "parent_id": "R0",
+        "title": "Continuous pages example",
+        "objective": "Verify complete cited physical pages in the preview.",
+        "kind": "learning_point",
+        "evidence_ids": [
+          "source-ranges-8",
+          "source-ranges-9",
+          "source-ranges-10",
+          "source-ranges-11"
+        ]
+      },
+      {
+        "id": "R2",
+        "parent_id": "R0",
+        "title": "Scattered pages and two documents example",
+        "objective": "Verify complete cited physical pages in the preview.",
+        "kind": "learning_point",
+        "evidence_ids": [
+          "source-ranges-8",
+          "source-ranges-12",
+          "source-ranges-15",
+          "source-ranges-16",
+          "source-ranges-17",
+          "optics-1"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "node_id": "R1",
+        "document_id": "source-ranges",
+        "page": 8,
+        "element_ids": [
+          "source-ranges-8"
+        ]
+      },
+      {
+        "node_id": "R1",
+        "document_id": "source-ranges",
+        "page": 9,
+        "element_ids": [
+          "source-ranges-9"
+        ]
+      },
+      {
+        "node_id": "R1",
+        "document_id": "source-ranges",
+        "page": 10,
+        "element_ids": [
+          "source-ranges-10"
+        ]
+      },
+      {
+        "node_id": "R1",
+        "document_id": "source-ranges",
+        "page": 11,
+        "element_ids": [
+          "source-ranges-11"
+        ]
+      },
+      {
+        "node_id": "R2",
+        "document_id": "source-ranges",
+        "page": 8,
+        "element_ids": [
+          "source-ranges-8"
+        ]
+      },
+      {
+        "node_id": "R2",
+        "document_id": "source-ranges",
+        "page": 12,
+        "element_ids": [
+          "source-ranges-12"
+        ]
+      },
+      {
+        "node_id": "R2",
+        "document_id": "source-ranges",
+        "page": 15,
+        "element_ids": [
+          "source-ranges-15"
+        ]
+      },
+      {
+        "node_id": "R2",
+        "document_id": "source-ranges",
+        "page": 16,
+        "element_ids": [
+          "source-ranges-16"
+        ]
+      },
+      {
+        "node_id": "R2",
+        "document_id": "source-ranges",
+        "page": 17,
+        "element_ids": [
+          "source-ranges-17"
+        ]
+      },
+      {
+        "node_id": "R2",
+        "document_id": "optics",
+        "page": 1,
+        "element_ids": [
+          "optics-1"
+        ]
+      }
+    ],
+    "unresolved_supplements": []
+  },
+  "validation": {
+    "status": "incomplete",
+    "coverage_scope": "Synthetic navigation fixture only; not a reviewed course decomposition.",
+    "counts": {
+      "registered": 9,
+      "mapped": 9,
+      "excluded_administrative": 0,
+      "unresolved": 0
+    },
+    "issues": []
+  }
+}

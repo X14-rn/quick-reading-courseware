@@ -1,0 +1,31 @@
+# Dependencies and build output
+node_modules/
+dist/
+.npm-cache/
+__pycache__/
+
+# Test output
+playwright-report/
+test-results/
+blob-report/
+
+# Never commit course material or private working files
+source_inputs/
+deliverables/
+backup-*/
+skill-revisions/
+personal-skills/
+.personal-skills/
+tmp/
+*.zip
+# Course PDFs: only the synthetic fixtures are tracked
+*.pdf
+!fixtures/*.pdf
+!fixtures/bad/*.pdf
+!skill/quick-reading-courseware-decomposition/tests/fixtures/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,210 @@
+{
+  "schema_version": "qr-courseware-map/1.0",
+  "project": {
+    "id": "synthetic-waves",
+    "title": "Synthetic wave demonstration",
+    "language": "en",
+    "scope": "synthetic_fixture",
+    "provenance": "synthetic_fixture"
+  },
+  "documents": [
+    {
+      "id": "waves",
+      "filename": "waves.pdf",
+      "pdf_sha256": "344722758a24a313d92d09d220824c82582dcae13ca0471676bb4696509fe736",
+      "page_count": 2
+    },
+    {
+      "id": "optics",
+      "filename": "optics.pdf",
+      "pdf_sha256": "cfee94f141f6e5d9c5b83d50c5d879ab96c53123d75d783c367ed9fff165b6f9",
+      "page_count": 1
+    }
+  ],
+  "page_inventory": [
+    {
+      "document_id": "waves",
+      "page": 1,
+      "inspection": "inspected",
+      "element_ids": [
+        "E1"
+      ]
+    },
+    {
+      "document_id": "waves",
+      "page": 2,
+      "inspection": "inspected",
+      "element_ids": [
+        "E2"
+      ]
+    },
+    {
+      "document_id": "optics",
+      "page": 1,
+      "inspection": "inspected",
+      "element_ids": [
+        "E3"
+      ]
+    }
+  ],
+  "source_coverage_register": [
+    {
+      "id": "E1",
+      "document_id": "waves",
+      "page": 1,
+      "kind": "text",
+      "locator": "Wave speed is frequency times wavelength.",
+      "status": "mapped",
+      "node_ids": [
+        "N2"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "E2",
+      "document_id": "waves",
+      "page": 2,
+      "kind": "text",
+      "locator": "A wave reflects at a boundary.",
+      "status": "mapped",
+      "node_ids": [
+        "N3"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "E3",
+      "document_id": "optics",
+      "page": 1,
+      "kind": "text",
+      "locator": "Light waves reflect at an interface.",
+      "status": "mapped",
+      "node_ids": [
+        "N3"
+      ],
+      "verification": "verified"
+    }
+  ],
+  "v1": {
+    "candidate": [
+      "Wave behavior"
+    ],
+    "revision": [
+      "Wave relations",
+      "Boundary behavior"
+    ],
+    "review_note": "Synthetic example only."
+  },
+  "v2": {
+    "nodes": [
+      {
+        "id": "N1",
+        "parent_id": null,
+        "title": "Wave concepts",
+        "objective": "Explain the supported wave relations and boundary behavior.",
+        "kind": "group",
+        "evidence_ids": []
+      },
+      {
+        "id": "N2",
+        "parent_id": "N1",
+        "title": "Relate wave speed, frequency and wavelength",
+        "objective": "Apply the wave speed relation to frequency and wavelength.",
+        "kind": "learning_point",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "id": "N3",
+        "parent_id": "N1",
+        "title": "Describe wave reflection at a boundary",
+        "objective": "Identify reflection at a boundary or interface.",
+        "kind": "learning_point",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "round": 1,
+        "findings": [],
+        "corrections": [],
+        "confirming_pass": false
+      }
+    ]
+  },
+  "v3": {
+    "nodes": [
+      {
+        "id": "N1",
+        "parent_id": null,
+        "title": "Wave concepts",
+        "objective": "Explain the supported wave relations and boundary behavior.",
+        "kind": "group",
+        "evidence_ids": []
+      },
+      {
+        "id": "N2",
+        "parent_id": "N1",
+        "title": "Relate wave speed, frequency and wavelength",
+        "objective": "Apply the wave speed relation to frequency and wavelength.",
+        "kind": "learning_point",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "id": "N3",
+        "parent_id": "N1",
+        "title": "Describe wave reflection at a boundary",
+        "objective": "Identify reflection at a boundary or interface.",
+        "kind": "learning_point",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "node_id": "N2",
+        "document_id": "waves",
+        "page": 1,
+        "element_ids": [
+          "E1"
+        ]
+      },
+      {
+        "node_id": "N3",
+        "document_id": "waves",
+        "page": 2,
+        "element_ids": [
+          "E2"
+        ]
+      },
+      {
+        "node_id": "N3",
+        "document_id": "optics",
+        "page": 1,
+        "element_ids": [
+          "E3"
+        ]
+      }
+    ],
+    "unresolved_supplements": []
+  },
+  "validation": {
+    "status": "incomplete",
+    "coverage_scope": "Synthetic three-occurrence demonstration; not a real course decomposition.",
+    "counts": {
+      "registered": 3,
+      "mapped": 3,
+      "excluded_administrative": 0,
+      "unresolved": 0
+    },
+    "issues": []
+  }
+}

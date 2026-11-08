@@ -1,0 +1,603 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://example.invalid/qr-courseware-map/1.1",
+ "title": "Quick Reading courseware map 1.1 (reads 1.0)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema_version",
+  "project",
+  "documents",
+  "page_inventory",
+  "source_coverage_register",
+  "v1",
+  "v2",
+  "v3",
+  "validation"
+ ],
+ "properties": {
+  "schema_version": {
+   "enum": [
+    "qr-courseware-map/1.0",
+    "qr-courseware-map/1.1"
+   ]
+  },
+  "project": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "title",
+    "language",
+    "scope",
+    "provenance"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "title": {
+     "$ref": "#/$defs/text"
+    },
+    "language": {
+     "$ref": "#/$defs/text"
+    },
+    "scope": {
+     "enum": [
+      "full_source",
+      "representative_subset",
+      "synthetic_fixture"
+     ]
+    },
+    "provenance": {
+     "enum": [
+      "ai_reviewed",
+      "chatgpt_reviewed",
+      "synthetic_fixture",
+      "diagnostic_pipeline"
+     ]
+    }
+   }
+  },
+  "documents": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "filename",
+     "pdf_sha256",
+     "page_count"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/id"
+     },
+     "filename": {
+      "$ref": "#/$defs/text"
+     },
+     "pdf_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+     },
+     "page_count": {
+      "type": "integer",
+      "minimum": 1
+     }
+    }
+   }
+  },
+  "page_inventory": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "document_id",
+     "page",
+     "inspection",
+     "element_ids"
+    ],
+    "properties": {
+     "document_id": {
+      "$ref": "#/$defs/id"
+     },
+     "page": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "inspection": {
+      "enum": [
+       "inspected",
+       "pending",
+       "unreadable"
+      ]
+     },
+     "element_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+       "$ref": "#/$defs/id"
+      }
+     },
+     "note": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "source_coverage_register": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "document_id",
+     "page",
+     "kind",
+     "locator",
+     "status",
+     "node_ids",
+     "verification"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/id"
+     },
+     "document_id": {
+      "$ref": "#/$defs/id"
+     },
+     "page": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "kind": {
+      "enum": [
+       "text",
+       "equation",
+       "figure",
+       "table",
+       "chart",
+       "example",
+       "exercise",
+       "link",
+       "other"
+      ]
+     },
+     "locator": {
+      "$ref": "#/$defs/text"
+     },
+     "status": {
+      "enum": [
+       "mapped",
+       "excluded_administrative",
+       "unresolved"
+      ]
+     },
+     "node_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+       "$ref": "#/$defs/id"
+      }
+     },
+     "note": {
+      "type": "string"
+     },
+     "verification": {
+      "enum": [
+       "verified",
+       "pending",
+       "unresolved"
+      ]
+     },
+     "uncertainty": {
+      "$ref": "#/$defs/uncertainty"
+     }
+    }
+   }
+  },
+  "v1": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "candidate",
+    "revision",
+    "review_note"
+   ],
+   "properties": {
+    "candidate": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/text"
+     }
+    },
+    "revision": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/text"
+     }
+    },
+    "review_note": {
+     "$ref": "#/$defs/text"
+    }
+   }
+  },
+  "v2": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "nodes",
+    "reviews"
+   ],
+   "properties": {
+    "nodes": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/node"
+     }
+    },
+    "reviews": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "round",
+       "findings",
+       "corrections",
+       "confirming_pass"
+      ],
+      "properties": {
+       "round": {
+        "type": "integer",
+        "minimum": 1
+       },
+       "findings": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "corrections": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "confirming_pass": {
+        "type": "boolean"
+       }
+      }
+     }
+    }
+   }
+  },
+  "v3": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "nodes",
+    "references",
+    "unresolved_supplements"
+   ],
+   "properties": {
+    "nodes": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/node"
+     }
+    },
+    "references": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "node_id",
+       "document_id",
+       "page",
+       "element_ids"
+      ],
+      "properties": {
+       "node_id": {
+        "$ref": "#/$defs/id"
+       },
+       "document_id": {
+        "$ref": "#/$defs/id"
+       },
+       "page": {
+        "type": "integer",
+        "minimum": 1
+       },
+       "element_ids": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+         "$ref": "#/$defs/id"
+        }
+       }
+      }
+     }
+    },
+    "unresolved_supplements": {
+     "type": "array",
+     "uniqueItems": true,
+     "items": {
+      "$ref": "#/$defs/id"
+     }
+    }
+   }
+  },
+  "validation": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "status",
+    "coverage_scope",
+    "counts",
+    "issues"
+   ],
+   "properties": {
+    "status": {
+     "enum": [
+      "complete",
+      "incomplete",
+      "blocked"
+     ]
+    },
+    "coverage_scope": {
+     "$ref": "#/$defs/text"
+    },
+    "counts": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "registered",
+      "mapped",
+      "excluded_administrative",
+      "unresolved"
+     ],
+     "properties": {
+      "registered": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "mapped": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "excluded_administrative": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "unresolved": {
+       "type": "integer",
+       "minimum": 0
+      }
+     }
+    },
+    "issues": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "severity",
+       "code",
+       "description"
+      ],
+      "properties": {
+       "severity": {
+        "enum": [
+         "critical",
+         "noncritical"
+        ]
+       },
+       "code": {
+        "$ref": "#/$defs/id"
+       },
+       "description": {
+        "$ref": "#/$defs/text"
+       },
+       "element_id": {
+        "$ref": "#/$defs/id"
+       },
+       "node_id": {
+        "$ref": "#/$defs/id"
+       },
+       "category": {
+        "enum": [
+         "structure",
+         "evidence",
+         "coverage",
+         "source_erratum",
+         "uncertainty",
+         "other"
+        ]
+       },
+       "standard_form": {
+        "$ref": "#/$defs/short"
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "$defs": {
+  "id": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+  },
+  "text": {
+   "type": "string",
+   "minLength": 1
+  },
+  "node": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "parent_id",
+    "title",
+    "objective",
+    "kind",
+    "evidence_ids"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "parent_id": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/id"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "title": {
+     "$ref": "#/$defs/text"
+    },
+    "objective": {
+     "$ref": "#/$defs/text"
+    },
+    "kind": {
+     "enum": [
+      "group",
+      "learning_point"
+     ]
+    },
+    "evidence_ids": {
+     "type": "array",
+     "uniqueItems": true,
+     "items": {
+      "$ref": "#/$defs/id"
+     }
+    },
+    "uncertainty": {
+     "$ref": "#/$defs/uncertainty"
+    },
+    "importance": {
+     "enum": [
+      "core",
+      "supporting",
+      "context"
+     ]
+    },
+    "key_points": {
+     "type": "array",
+     "maxItems": 8,
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "kind",
+       "text",
+       "element_ids"
+      ],
+      "properties": {
+       "kind": {
+        "enum": [
+         "definition",
+         "equation",
+         "condition",
+         "fact",
+         "procedure",
+         "comparison",
+         "example",
+         "caution"
+        ]
+       },
+       "text": {
+        "$ref": "#/$defs/short"
+       },
+       "element_ids": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+         "$ref": "#/$defs/id"
+        }
+       }
+      }
+     }
+    },
+    "supplements": {
+     "type": "array",
+     "maxItems": 3,
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "purpose",
+       "text"
+      ],
+      "properties": {
+       "purpose": {
+        "enum": [
+         "bridge",
+         "definition",
+         "intuition",
+         "context"
+        ]
+       },
+       "text": {
+        "$ref": "#/$defs/short"
+       }
+      }
+     }
+    }
+   }
+  },
+  "uncertainty": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "category",
+    "affected_content",
+    "source_evidence",
+    "attempts"
+   ],
+   "properties": {
+    "category": {
+     "enum": [
+      "extraction",
+      "identity",
+      "interpretation",
+      "coverage",
+      "contradiction",
+      "other"
+     ]
+    },
+    "affected_content": {
+     "$ref": "#/$defs/text"
+    },
+    "source_evidence": {
+     "$ref": "#/$defs/text"
+    },
+    "attempts": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/text"
+     }
+    }
+   }
+  },
+  "short": {
+   "type": "string",
+   "minLength": 1,
+   "maxLength": 500
+  }
+ }
+}

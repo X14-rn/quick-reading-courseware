@@ -1,0 +1,3997 @@
+{
+ "schema_version": "qr-courseware-map/1.1",
+ "project": {
+  "id": "demo-laser-optics",
+  "title": "Laser Optics Primer (synthetic demo)",
+  "language": "en",
+  "scope": "synthetic_fixture",
+  "provenance": "synthetic_fixture"
+ },
+ "documents": [
+  {
+   "id": "demo",
+   "filename": "demo-laser-optics.pdf",
+   "pdf_sha256": "69bfc9d942cf6bf159d0554b4dea07a2bd3a9094b704ba4dd21e87d5c9b42456",
+   "page_count": 45
+  }
+ ],
+ "page_inventory": [
+  {
+   "document_id": "demo",
+   "page": 1,
+   "inspection": "inspected",
+   "element_ids": [
+    "p01-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 2,
+   "inspection": "inspected",
+   "element_ids": [
+    "p02-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 3,
+   "inspection": "inspected",
+   "element_ids": [
+    "p03-1",
+    "p03-2",
+    "p03-3"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 4,
+   "inspection": "inspected",
+   "element_ids": [
+    "p04-1",
+    "p04-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 5,
+   "inspection": "inspected",
+   "element_ids": [
+    "p05-1",
+    "p05-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 6,
+   "inspection": "inspected",
+   "element_ids": [
+    "p06-1",
+    "p06-2",
+    "p06-3"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 7,
+   "inspection": "inspected",
+   "element_ids": [
+    "p07-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 8,
+   "inspection": "inspected",
+   "element_ids": [
+    "p08-1",
+    "p08-2",
+    "p08-3",
+    "p08-4"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 9,
+   "inspection": "inspected",
+   "element_ids": [
+    "p09-1",
+    "p09-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 10,
+   "inspection": "inspected",
+   "element_ids": [
+    "p10-1",
+    "p10-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 11,
+   "inspection": "inspected",
+   "element_ids": [
+    "p11-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 12,
+   "inspection": "inspected",
+   "element_ids": [
+    "p12-1",
+    "p12-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 13,
+   "inspection": "inspected",
+   "element_ids": [
+    "p13-1",
+    "p13-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 14,
+   "inspection": "inspected",
+   "element_ids": [
+    "p14-1",
+    "p14-2",
+    "p14-3"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 15,
+   "inspection": "inspected",
+   "element_ids": [
+    "p15-1",
+    "p15-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 16,
+   "inspection": "inspected",
+   "element_ids": [
+    "p16-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 17,
+   "inspection": "inspected",
+   "element_ids": [
+    "p17-1",
+    "p17-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 18,
+   "inspection": "inspected",
+   "element_ids": [
+    "p18-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 19,
+   "inspection": "inspected",
+   "element_ids": [
+    "p19-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 20,
+   "inspection": "inspected",
+   "element_ids": [
+    "p20-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 21,
+   "inspection": "inspected",
+   "element_ids": [
+    "p21-1",
+    "p21-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 22,
+   "inspection": "inspected",
+   "element_ids": [
+    "p22-1",
+    "p22-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 23,
+   "inspection": "inspected",
+   "element_ids": [
+    "p23-1",
+    "p23-2",
+    "p23-3"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 24,
+   "inspection": "inspected",
+   "element_ids": [
+    "p24-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 25,
+   "inspection": "inspected",
+   "element_ids": [
+    "p25-1",
+    "p25-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 26,
+   "inspection": "inspected",
+   "element_ids": [
+    "p26-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 27,
+   "inspection": "inspected",
+   "element_ids": [
+    "p27-1",
+    "p27-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 28,
+   "inspection": "inspected",
+   "element_ids": [
+    "p28-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 29,
+   "inspection": "inspected",
+   "element_ids": [
+    "p29-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 30,
+   "inspection": "inspected",
+   "element_ids": [
+    "p30-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 31,
+   "inspection": "inspected",
+   "element_ids": [
+    "p31-1",
+    "p31-2"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 32,
+   "inspection": "inspected",
+   "element_ids": [
+    "p32-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 33,
+   "inspection": "inspected",
+   "element_ids": [
+    "p33-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 34,
+   "inspection": "inspected",
+   "element_ids": [
+    "p34-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 35,
+   "inspection": "inspected",
+   "element_ids": [
+    "p35-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 36,
+   "inspection": "inspected",
+   "element_ids": [
+    "p36-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 37,
+   "inspection": "inspected",
+   "element_ids": [
+    "p37-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 38,
+   "inspection": "inspected",
+   "element_ids": [
+    "p38-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 39,
+   "inspection": "inspected",
+   "element_ids": [
+    "p39-1",
+    "p39-2",
+    "p39-3"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 40,
+   "inspection": "inspected",
+   "element_ids": [
+    "p40-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 41,
+   "inspection": "inspected",
+   "element_ids": [
+    "p41-a"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 42,
+   "inspection": "inspected",
+   "element_ids": [
+    "p42-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 43,
+   "inspection": "inspected",
+   "element_ids": [
+    "p43-1",
+    "p43-2",
+    "p43-3"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 44,
+   "inspection": "inspected",
+   "element_ids": [
+    "p44-1"
+   ]
+  },
+  {
+   "document_id": "demo",
+   "page": 45,
+   "inspection": "inspected",
+   "element_ids": [
+    "p45-1",
+    "p45-2"
+   ]
+  }
+ ],
+ "source_coverage_register": [
+  {
+   "id": "p01-a",
+   "document_id": "demo",
+   "page": 1,
+   "kind": "other",
+   "locator": "Title slide: Laser optics for material processing.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p02-a",
+   "document_id": "demo",
+   "page": 2,
+   "kind": "other",
+   "locator": "Divider slide: How a laser works.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p03-1",
+   "document_id": "demo",
+   "page": 3,
+   "kind": "text",
+   "locator": "A photon of energy E2 − E1 can stimulate an excited atom to emit an identical photon (same frequency, phase, direction).",
+   "status": "mapped",
+   "node_ids": [
+    "lasing"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p03-2",
+   "document_id": "demo",
+   "page": 3,
+   "kind": "text",
+   "locator": "Gain requires more atoms in the upper level than in the lower level: a population inversion.",
+   "status": "mapped",
+   "node_ids": [
+    "lasing"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p03-3",
+   "document_id": "demo",
+   "page": 3,
+   "kind": "figure",
+   "locator": "Energy-level diagram: pump → upper level → lasing transition → lower level.",
+   "status": "mapped",
+   "node_ids": [
+    "lasing"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p04-1",
+   "document_id": "demo",
+   "page": 4,
+   "kind": "text",
+   "locator": "Two mirrors face each other around the gain medium; one is partly transmitting (output coupler).",
+   "status": "mapped",
+   "node_ids": [
+    "resonator"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p04-2",
+   "document_id": "demo",
+   "page": 4,
+   "kind": "text",
+   "locator": "Only light travelling along the axis passes the gain medium many times and is amplified.",
+   "status": "mapped",
+   "node_ids": [
+    "resonator"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p05-1",
+   "document_id": "demo",
+   "page": 5,
+   "kind": "text",
+   "locator": "Optical pumping: flash lamps or laser diodes excite the gain medium.",
+   "status": "mapped",
+   "node_ids": [
+    "pumping"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p05-2",
+   "document_id": "demo",
+   "page": 5,
+   "kind": "text",
+   "locator": "Electrical pumping: a gas discharge (CO₂, He-Ne) or a current through a semiconductor junction.",
+   "status": "mapped",
+   "node_ids": [
+    "pumping"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p06-1",
+   "document_id": "demo",
+   "page": 6,
+   "kind": "text",
+   "locator": "Plane-parallel mirrors are very sensitive to tilt; light walks off the axis.",
+   "status": "mapped",
+   "node_ids": [
+    "curved"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p06-2",
+   "document_id": "demo",
+   "page": 6,
+   "kind": "equation",
+   "locator": "Stability condition: 0 ≤ g1·g2 ≤ 1 with g = 1 − L/R.",
+   "status": "mapped",
+   "node_ids": [
+    "curved"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p06-3",
+   "document_id": "demo",
+   "page": 6,
+   "kind": "figure",
+   "locator": "Confocal resonator: R1 = R2 = L.",
+   "status": "mapped",
+   "node_ids": [
+    "curved"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p07-a",
+   "document_id": "demo",
+   "page": 7,
+   "kind": "other",
+   "locator": "Divider slide: Properties of laser light.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p08-1",
+   "document_id": "demo",
+   "page": 8,
+   "kind": "text",
+   "locator": "Monochromatic: a very narrow range of wavelengths.",
+   "status": "mapped",
+   "node_ids": [
+    "props"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p08-2",
+   "document_id": "demo",
+   "page": 8,
+   "kind": "text",
+   "locator": "Directional: a small divergence angle.",
+   "status": "mapped",
+   "node_ids": [
+    "props"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p08-3",
+   "document_id": "demo",
+   "page": 8,
+   "kind": "text",
+   "locator": "Bright: high power per area and solid angle.",
+   "status": "mapped",
+   "node_ids": [
+    "props"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p08-4",
+   "document_id": "demo",
+   "page": 8,
+   "kind": "text",
+   "locator": "Coherent: a fixed phase relation in time and space.",
+   "status": "mapped",
+   "node_ids": [
+    "props"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p09-1",
+   "document_id": "demo",
+   "page": 9,
+   "kind": "equation",
+   "locator": "Power density I = P / A (W/m²).",
+   "status": "mapped",
+   "node_ids": [
+    "powerdens"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p09-2",
+   "document_id": "demo",
+   "page": 9,
+   "kind": "text",
+   "locator": "A 1 W laser focused to a 100 µm spot gives about 1.3×10⁸ W/m²; a 100 W lamp spreads its light over the whole room.",
+   "status": "mapped",
+   "node_ids": [
+    "powerdens"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p10-1",
+   "document_id": "demo",
+   "page": 10,
+   "kind": "text",
+   "locator": "Linewidth Δλ (or Δν) measures how monochromatic a source is.",
+   "status": "mapped",
+   "node_ids": [
+    "linewidth"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p10-2",
+   "document_id": "demo",
+   "page": 10,
+   "kind": "equation",
+   "locator": "A narrow linewidth gives a long coherence length: Lc ≈ λ²/Δλ.",
+   "status": "mapped",
+   "node_ids": [
+    "linewidth"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p11-a",
+   "document_id": "demo",
+   "page": 11,
+   "kind": "other",
+   "locator": "Divider slide: Coherence.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p12-1",
+   "document_id": "demo",
+   "page": 12,
+   "kind": "equation",
+   "locator": "E(x, t) = E0 cos(kx − ωt + φ), k = 2π/λ, ω = 2πν.",
+   "status": "mapped",
+   "node_ids": [
+    "wave"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p12-2",
+   "document_id": "demo",
+   "page": 12,
+   "kind": "text",
+   "locator": "Two waves interfere constructively when their phases agree.",
+   "status": "mapped",
+   "node_ids": [
+    "wave"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p13-1",
+   "document_id": "demo",
+   "page": 13,
+   "kind": "text",
+   "locator": "Temporal coherence: phase correlation along the beam, set by the linewidth (coherence length).",
+   "status": "mapped",
+   "node_ids": [
+    "tsc"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p13-2",
+   "document_id": "demo",
+   "page": 13,
+   "kind": "text",
+   "locator": "Spatial coherence: phase correlation across the beam, set by the source size.",
+   "status": "mapped",
+   "node_ids": [
+    "tsc"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p14-1",
+   "document_id": "demo",
+   "page": 14,
+   "kind": "equation",
+   "locator": "Lc = c/Δν ≈ λ²/Δλ.",
+   "status": "mapped",
+   "node_ids": [
+    "lc"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p14-2",
+   "document_id": "demo",
+   "page": 14,
+   "kind": "text",
+   "locator": "He-Ne laser, Δν ≈ 1.5 GHz → Lc ≈ 0.2 m; white light Lc ≈ 1 µm.",
+   "status": "mapped",
+   "node_ids": [
+    "lc"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p14-3",
+   "document_id": "demo",
+   "page": 14,
+   "kind": "text",
+   "locator": "Interference fringes vanish when the path difference exceeds the coherence length.",
+   "status": "mapped",
+   "node_ids": [
+    "lc"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p15-1",
+   "document_id": "demo",
+   "page": 15,
+   "kind": "figure",
+   "locator": "Mach–Zehnder interferometer: split, delay one arm, recombine.",
+   "status": "mapped",
+   "node_ids": [
+    "mz"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p15-2",
+   "document_id": "demo",
+   "page": 15,
+   "kind": "text",
+   "locator": "Fringe visibility drops as the delay approaches the coherence length.",
+   "status": "mapped",
+   "node_ids": [
+    "mz"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p16-1",
+   "document_id": "demo",
+   "page": 16,
+   "kind": "equation",
+   "locator": "Coherence width w ≈ λ·D/s for a source of size s seen from distance D.",
+   "status": "mapped",
+   "node_ids": [
+    "wc"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p17-1",
+   "document_id": "demo",
+   "page": 17,
+   "kind": "text",
+   "locator": "A narrow band-pass filter lengthens the coherence length; a pinhole increases spatial coherence.",
+   "status": "mapped",
+   "node_ids": [
+    "filt"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p17-2",
+   "document_id": "demo",
+   "page": 17,
+   "kind": "text",
+   "locator": "Both throw away light, so intensity drops.",
+   "status": "mapped",
+   "node_ids": [
+    "filt"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p18-a",
+   "document_id": "demo",
+   "page": 18,
+   "kind": "other",
+   "locator": "Divider slide: Laser output: pulses and beam modes.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p19-1",
+   "document_id": "demo",
+   "page": 19,
+   "kind": "text",
+   "locator": "CW lasers emit constant power; pulsed lasers concentrate energy into short pulses with high peak power.",
+   "status": "mapped",
+   "node_ids": [
+    "cwp"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p20-1",
+   "document_id": "demo",
+   "page": 20,
+   "kind": "text",
+   "locator": "Long (µs–ns) pulses melt and vaporise; ultrashort (ps–fs) pulses ablate before heat spreads, leaving little heat-affected zone.",
+   "status": "mapped",
+   "node_ids": [
+    "removal"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p21-1",
+   "document_id": "demo",
+   "page": 21,
+   "kind": "text",
+   "locator": "The resonator losses are kept high while the gain medium stores energy, then suddenly switched low.",
+   "status": "mapped",
+   "node_ids": [
+    "qs"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p21-2",
+   "document_id": "demo",
+   "page": 21,
+   "kind": "text",
+   "locator": "The stored energy leaves in one short pulse (ns) with high peak power.",
+   "status": "mapped",
+   "node_ids": [
+    "qs"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p22-1",
+   "document_id": "demo",
+   "page": 22,
+   "kind": "text",
+   "locator": "Active: acousto-optic or electro-optic modulators switched by a signal.",
+   "status": "mapped",
+   "node_ids": [
+    "qsm"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p22-2",
+   "document_id": "demo",
+   "page": 22,
+   "kind": "text",
+   "locator": "Passive: a saturable absorber that becomes transparent at high intensity.",
+   "status": "mapped",
+   "node_ids": [
+    "qsm"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p23-1",
+   "document_id": "demo",
+   "page": 23,
+   "kind": "text",
+   "locator": "TEM₀₀ is the fundamental transverse mode: a single bright spot with a Gaussian profile.",
+   "status": "mapped",
+   "node_ids": [
+    "gauss"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p23-2",
+   "document_id": "demo",
+   "page": 23,
+   "kind": "equation",
+   "locator": "I(r) = I0·exp(−2r²/w²); w beam radius at 1/e² intensity.",
+   "status": "mapped",
+   "node_ids": [
+    "gauss"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p23-3",
+   "document_id": "demo",
+   "page": 23,
+   "kind": "equation",
+   "locator": "Far-field half-angle divergence θ ≈ λ/(π·w0).",
+   "status": "mapped",
+   "node_ids": [
+    "gauss"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p24-a",
+   "document_id": "demo",
+   "page": 24,
+   "kind": "other",
+   "locator": "Divider slide: Choosing a laser source.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p25-1",
+   "document_id": "demo",
+   "page": 25,
+   "kind": "table",
+   "locator": "Cutting/welding: CO₂, fibre. Marking: fibre, DPSS. Micromachining: ultrafast, excimer.",
+   "status": "mapped",
+   "node_ids": [
+    "byapp"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p25-2",
+   "document_id": "demo",
+   "page": 25,
+   "kind": "text",
+   "locator": "Material absorption at the laser wavelength decides the choice.",
+   "status": "mapped",
+   "node_ids": [
+    "byapp"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p26-1",
+   "document_id": "demo",
+   "page": 26,
+   "kind": "table",
+   "locator": "CO₂ 10.6 µm; Nd:YAG and Yb fibre ≈ 1.06 µm; frequency-doubled 532 nm; excimer 193–351 nm.",
+   "status": "mapped",
+   "node_ids": [
+    "wl"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p27-1",
+   "document_id": "demo",
+   "page": 27,
+   "kind": "table",
+   "locator": "Wavelength, average power, pulse energy and duration, repetition rate, beam quality M², pump type.",
+   "status": "mapped",
+   "node_ids": [
+    "spec"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p27-2",
+   "document_id": "demo",
+   "page": 27,
+   "kind": "text",
+   "locator": "Example data sheet: flash-lamp Nd:YAG, 1064 nm, 10 ns, 20 Hz, 500 mJ.",
+   "status": "mapped",
+   "node_ids": [
+    "spec"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p28-a",
+   "document_id": "demo",
+   "page": 28,
+   "kind": "other",
+   "locator": "Divider slide: Beam expansion and collimation.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p29-1",
+   "document_id": "demo",
+   "page": 29,
+   "kind": "figure",
+   "locator": "Two positive lenses separated by f1 + f2; internal focus between them.",
+   "status": "mapped",
+   "node_ids": [
+    "kep"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p30-1",
+   "document_id": "demo",
+   "page": 30,
+   "kind": "figure",
+   "locator": "A negative lens followed by a positive lens, separated by f2 − |f1|; no internal focus.",
+   "status": "mapped",
+   "node_ids": [
+    "gal"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p31-1",
+   "document_id": "demo",
+   "page": 31,
+   "kind": "equation",
+   "locator": "Magnification M = f2/|f1|; output diameter D_out = M·D_in.",
+   "status": "mapped",
+   "node_ids": [
+    "mp"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p31-2",
+   "document_id": "demo",
+   "page": 31,
+   "kind": "equation",
+   "locator": "Divergence is reduced by the same factor: θ_out = θ_in / M.",
+   "status": "mapped",
+   "node_ids": [
+    "mp"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p32-1",
+   "document_id": "demo",
+   "page": 32,
+   "kind": "equation",
+   "locator": "Focused spot diameter d ≈ 4λf/(πD): a larger input beam D gives a smaller spot.",
+   "status": "mapped",
+   "node_ids": [
+    "coll"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p33-a",
+   "document_id": "demo",
+   "page": 33,
+   "kind": "other",
+   "locator": "Divider slide: Beam shaping.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p34-1",
+   "document_id": "demo",
+   "page": 34,
+   "kind": "text",
+   "locator": "Many processes need uniform energy across the spot (e.g. annealing, ablation of large areas).",
+   "status": "mapped",
+   "node_ids": [
+    "bs"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p35-1",
+   "document_id": "demo",
+   "page": 35,
+   "kind": "text",
+   "locator": "Refractive shapers (aspheric lenses), diffractive optical elements (DOEs), micro-lens array homogenisers.",
+   "status": "mapped",
+   "node_ids": [
+    "bsm"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p36-1",
+   "document_id": "demo",
+   "page": 36,
+   "kind": "figure",
+   "locator": "Gaussian: peaked centre, soft edges. Top-hat: flat centre, steep edges.",
+   "status": "mapped",
+   "node_ids": [
+    "tophat"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p37-a",
+   "document_id": "demo",
+   "page": 37,
+   "kind": "other",
+   "locator": "Divider slide: Beam splitting and dichroic optics.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p38-1",
+   "document_id": "demo",
+   "page": 38,
+   "kind": "text",
+   "locator": "Partially reflecting plates or cubes split intensity; polarising cubes split by polarisation; dichroics split by wavelength.",
+   "status": "mapped",
+   "node_ids": [
+    "split"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p39-1",
+   "document_id": "demo",
+   "page": 39,
+   "kind": "text",
+   "locator": "Thin-film interference coatings reflect one wavelength band and transmit another.",
+   "status": "mapped",
+   "node_ids": [
+    "dich"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p39-2",
+   "document_id": "demo",
+   "page": 39,
+   "kind": "figure",
+   "locator": "Transmission curve with a sharp edge at the cut-off wavelength.",
+   "status": "mapped",
+   "node_ids": [
+    "dich"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p39-3",
+   "document_id": "demo",
+   "page": 39,
+   "kind": "text",
+   "locator": "Example slide value: a 45° dichroic reflects 1064 nm and transmits 532 nm at 99 %.",
+   "status": "mapped",
+   "node_ids": [
+    "dich"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p40-1",
+   "document_id": "demo",
+   "page": 40,
+   "kind": "text",
+   "locator": "Combining a visible pilot beam with an infrared process beam; separating harmonics after frequency doubling.",
+   "status": "mapped",
+   "node_ids": [
+    "dapp"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p41-a",
+   "document_id": "demo",
+   "page": 41,
+   "kind": "other",
+   "locator": "Divider slide: Beam scanning and delivery.",
+   "status": "excluded_administrative",
+   "node_ids": [],
+   "note": "Title or chapter divider; no learning content.",
+   "verification": "verified"
+  },
+  {
+   "id": "p42-1",
+   "document_id": "demo",
+   "page": 42,
+   "kind": "text",
+   "locator": "Galvanometer mirrors, polygon scanners and XY stages move the spot over the workpiece.",
+   "status": "mapped",
+   "node_ids": [
+    "scan"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p43-1",
+   "document_id": "demo",
+   "page": 43,
+   "kind": "equation",
+   "locator": "F-theta lens: spot position x = f·θ (linear in scan angle).",
+   "status": "mapped",
+   "node_ids": [
+    "ftheta"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p43-2",
+   "document_id": "demo",
+   "page": 43,
+   "kind": "text",
+   "locator": "It keeps the focus on a flat field.",
+   "status": "mapped",
+   "node_ids": [
+    "ftheta"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p43-3",
+   "document_id": "demo",
+   "page": 43,
+   "kind": "text",
+   "locator": "Measured spot 78 µm vs designed 75.4 µm: a 5.5 % deviation.",
+   "status": "mapped",
+   "node_ids": [
+    "ftheta"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p44-1",
+   "document_id": "demo",
+   "page": 44,
+   "kind": "text",
+   "locator": "Free space: mirrors and lenses, any wavelength, alignment needed. Fibre: flexible, robot-friendly, limited by wavelength and peak power.",
+   "status": "mapped",
+   "node_ids": [
+    "deliv"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p45-1",
+   "document_id": "demo",
+   "page": 45,
+   "kind": "equation",
+   "locator": "Single-mode condition: V = (2πa/λ)·NA < 2.405.",
+   "status": "mapped",
+   "node_ids": [
+    "fmodes"
+   ],
+   "verification": "verified"
+  },
+  {
+   "id": "p45-2",
+   "document_id": "demo",
+   "page": 45,
+   "kind": "text",
+   "locator": "Multimode fibres carry more power but degrade beam quality.",
+   "status": "mapped",
+   "node_ids": [
+    "fmodes"
+   ],
+   "verification": "verified"
+  }
+ ],
+ "v1": {
+  "candidate": [
+   "How a laser works",
+   "Properties of laser light",
+   "Coherence",
+   "Laser output: pulses and beam modes",
+   "Choosing a laser source",
+   "Beam expansion and collimation",
+   "Beam shaping",
+   "Beam splitting and dichroic optics",
+   "Beam scanning and delivery"
+  ],
+  "revision": [
+   "How a laser works",
+   "Properties of laser light",
+   "Coherence",
+   "Laser output: pulses and beam modes",
+   "Choosing a laser source",
+   "Beam expansion and collimation",
+   "Beam shaping",
+   "Beam splitting and dichroic optics",
+   "Beam scanning and delivery"
+  ],
+  "review_note": "Synthetic demo course; structure written directly in learning order."
+ },
+ "v2": {
+  "nodes": [
+   {
+    "id": "demo",
+    "parent_id": null,
+    "title": "Laser optics for material processing",
+    "kind": "group",
+    "evidence_ids": [],
+    "objective": "Explain how lasers work and how their beams are conditioned and delivered for material processing."
+   },
+   {
+    "id": "c1",
+    "parent_id": "demo",
+    "title": "How a laser works",
+    "objective": "Explain how stimulated emission, pumping and a resonator produce laser light.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "lasing",
+    "parent_id": "c1",
+    "title": "Stimulated emission and population inversion",
+    "objective": "Explain why a population inversion is needed for optical gain.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p03-1",
+     "p03-2",
+     "p03-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "definition",
+      "text": "Stimulated emission: an incoming photon triggers an excited atom to emit a second, identical photon.",
+      "element_ids": [
+       "p03-1"
+      ]
+     },
+     {
+      "kind": "condition",
+      "text": "Optical gain needs a population inversion, N2 > N1.",
+      "element_ids": [
+       "p03-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Lasing uses three- or four-level schemes so the inversion can be maintained by pumping.",
+      "element_ids": [
+       "p03-3"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "In thermal equilibrium the lower level is always more populated, so light is absorbed more than amplified; pumping reverses that balance."
+     }
+    ]
+   },
+   {
+    "id": "resonator",
+    "parent_id": "c1",
+    "title": "Optical resonator",
+    "objective": "Describe how a resonator turns gain into a directional laser beam.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p04-1",
+     "p04-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "A resonator is a pair of mirrors around the gain medium; the output coupler transmits a fraction of the light.",
+      "element_ids": [
+       "p04-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Repeated passes along the axis select a narrow direction, which makes the beam highly directional.",
+      "element_ids": [
+       "p04-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "pumping",
+    "parent_id": "c1",
+    "title": "Pumping methods",
+    "objective": "Compare optical, electrical and diode pumping.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p05-1",
+     "p05-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Optical pumping uses lamps or diodes; electrical pumping uses a gas discharge or an injection current.",
+      "element_ids": [
+       "p05-1",
+       "p05-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Diode pumping is efficient and compact, which is why diode-pumped solid-state and fibre lasers dominate today.",
+      "element_ids": [
+       "p05-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "curved",
+    "parent_id": "c1",
+    "title": "Curved resonator mirrors",
+    "objective": "Explain why curved mirrors make a resonator stable.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p06-1",
+     "p06-2",
+     "p06-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Curved mirrors refocus the light each round trip, so small misalignments no longer push the beam out.",
+      "element_ids": [
+       "p06-1"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "0 ≤ g1·g2 ≤ 1, g_i = 1 − L/R_i; L mirror spacing (m), R_i mirror radius of curvature (m).",
+      "element_ids": [
+       "p06-2"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "A confocal resonator (R1 = R2 = L) gives g1·g2 = 0, a stable and alignment-tolerant design.",
+      "element_ids": [
+       "p06-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c2",
+    "parent_id": "demo",
+    "title": "Properties of laser light",
+    "objective": "Describe what makes laser light different from lamp light.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "props",
+    "parent_id": "c2",
+    "title": "Four key properties of laser light",
+    "objective": "List and explain the four key properties of laser light.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p08-1",
+     "p08-2",
+     "p08-3",
+     "p08-4"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Monochromaticity: the emission occupies a very narrow wavelength band.",
+      "element_ids": [
+       "p08-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Directionality: the beam diverges only slightly (milliradians or less).",
+      "element_ids": [
+       "p08-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Brightness: very high power per unit area and per unit solid angle.",
+      "element_ids": [
+       "p08-3"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Coherence: the waves keep a fixed phase relation in time and across the beam.",
+      "element_ids": [
+       "p08-4"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "powerdens",
+    "parent_id": "c2",
+    "title": "Power density: laser vs lamp",
+    "objective": "Compare the power density of a laser and a lamp.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p09-1",
+     "p09-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "I = P/A; P power (W), A illuminated area (m²).",
+      "element_ids": [
+       "p09-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "1 W into a 100 µm diameter spot: I = 1 / (π·(50×10⁻⁶)²) ≈ 1.3×10⁸ W/m².",
+      "element_ids": [
+       "p09-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Material processing depends on power density, not on power alone: focusing is what makes a modest laser cut metal."
+     }
+    ]
+   },
+   {
+    "id": "linewidth",
+    "parent_id": "c2",
+    "title": "Spectral linewidth",
+    "objective": "Relate spectral linewidth to coherence length.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p10-1",
+     "p10-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "definition",
+      "text": "Linewidth: the width of the emission spectrum, Δλ in wavelength or Δν in frequency.",
+      "element_ids": [
+       "p10-1"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "Coherence length Lc ≈ λ²/Δλ, so a narrower line means a longer coherence length.",
+      "element_ids": [
+       "p10-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c3",
+    "parent_id": "demo",
+    "title": "Coherence",
+    "objective": "Define temporal and spatial coherence and estimate coherence length.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "wave",
+    "parent_id": "c3",
+    "title": "Amplitude, wavelength and phase",
+    "objective": "Describe a light wave by amplitude, wavelength and phase.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p12-1",
+     "p12-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "E = E0 cos(kx − ωt + φ); E0 amplitude, k = 2π/λ wavenumber (rad/m), ω angular frequency (rad/s), φ phase (rad).",
+      "element_ids": [
+       "p12-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Interference depends on the phase difference between waves.",
+      "element_ids": [
+       "p12-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "Phase is the position within one cycle; two waves 'in step' add up, two waves half a cycle apart cancel."
+     }
+    ]
+   },
+   {
+    "id": "tsc",
+    "parent_id": "c3",
+    "title": "Temporal vs spatial coherence",
+    "objective": "Distinguish temporal and spatial coherence.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p13-1",
+     "p13-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Temporal coherence is correlation along the beam (coherence length); spatial coherence is correlation across it (coherence width).",
+      "element_ids": [
+       "p13-1",
+       "p13-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "lc",
+    "parent_id": "c3",
+    "title": "Coherence length",
+    "objective": "Calculate coherence length from linewidth.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p14-1",
+     "p14-2",
+     "p14-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "Lc = c/Δν ≈ λ²/Δλ; c speed of light, Δν linewidth in Hz.",
+      "element_ids": [
+       "p14-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "Δν = 1.5 GHz: Lc = 3×10⁸ / 1.5×10⁹ = 0.2 m.",
+      "element_ids": [
+       "p14-2"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "White light has a coherence length of only about a micrometre.",
+      "element_ids": [
+       "p14-2"
+      ]
+     },
+     {
+      "kind": "condition",
+      "text": "Fringes are visible only while the path difference is shorter than the coherence length.",
+      "element_ids": [
+       "p14-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "mz",
+    "parent_id": "c3",
+    "title": "Measuring coherence with an interferometer",
+    "objective": "Explain how an interferometer measures coherence length.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p15-1",
+     "p15-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "procedure",
+      "text": "Split the beam, lengthen one arm, recombine and record fringe visibility.",
+      "element_ids": [
+       "p15-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "The delay at which visibility falls off gives the coherence length.",
+      "element_ids": [
+       "p15-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Visibility V = (Imax − Imin)/(Imax + Imin) is the measured quantity."
+     }
+    ]
+   },
+   {
+    "id": "wc",
+    "parent_id": "c3",
+    "title": "Spatial coherence width",
+    "objective": "Estimate the coherence width of an extended source.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p16-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "w ≈ λD/s; λ wavelength, D distance to the source, s source size.",
+      "element_ids": [
+       "p16-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Smaller or more distant sources are more spatially coherent.",
+      "element_ids": [
+       "p16-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "filt",
+    "parent_id": "c3",
+    "title": "Improving coherence by filtering",
+    "objective": "Explain how filters improve coherence at the cost of power.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p17-1",
+     "p17-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Spectral filtering improves temporal coherence; a pinhole improves spatial coherence.",
+      "element_ids": [
+       "p17-1"
+      ]
+     },
+     {
+      "kind": "caution",
+      "text": "Filtering always reduces the available intensity.",
+      "element_ids": [
+       "p17-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c4",
+    "parent_id": "demo",
+    "title": "Laser output: pulses and beam modes",
+    "objective": "Describe continuous and pulsed output and the Gaussian beam.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "cwp",
+    "parent_id": "c4",
+    "title": "CW vs pulsed output",
+    "objective": "Compare continuous-wave and pulsed lasers.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p19-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "CW: constant power. Pulsed: energy concentrated in short pulses with peak power far above the average power.",
+      "element_ids": [
+       "p19-1"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Peak power ≈ pulse energy / pulse duration; average power = pulse energy × repetition rate."
+     }
+    ]
+   },
+   {
+    "id": "removal",
+    "parent_id": "c4",
+    "title": "Pulse duration and material removal",
+    "objective": "Explain how pulse duration changes material removal.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p20-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Long pulses remove material thermally (melting, recast); ultrashort pulses ablate with a minimal heat-affected zone.",
+      "element_ids": [
+       "p20-1"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "Heat needs time to diffuse; a femtosecond pulse is over before the heat can travel."
+     }
+    ]
+   },
+   {
+    "id": "qs",
+    "parent_id": "c4",
+    "title": "Q-switching principle",
+    "objective": "Explain how Q-switching produces short, intense pulses.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p21-1",
+     "p21-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "procedure",
+      "text": "Hold the cavity quality (Q) low while pumping, then switch it high to release the stored energy.",
+      "element_ids": [
+       "p21-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Q-switched pulses last nanoseconds and reach peak powers of kW to MW.",
+      "element_ids": [
+       "p21-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "Like a dam: water (energy) accumulates while the gate is shut and rushes out when it opens."
+     }
+    ]
+   },
+   {
+    "id": "qsm",
+    "parent_id": "c4",
+    "title": "Q-switching methods",
+    "objective": "Compare active and passive Q-switches.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p22-1",
+     "p22-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Active Q-switches (acousto-optic, electro-optic) are externally triggered; passive ones use a saturable absorber.",
+      "element_ids": [
+       "p22-1",
+       "p22-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Passive switching is simple and cheap but gives less control of pulse timing.",
+      "element_ids": [
+       "p22-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gauss",
+    "parent_id": "c4",
+    "title": "Transverse modes and the Gaussian beam",
+    "objective": "Describe the TEM₀₀ Gaussian beam and its divergence.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p23-1",
+     "p23-2",
+     "p23-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "definition",
+      "text": "TEM₀₀: the lowest transverse mode, a single spot with a Gaussian intensity profile.",
+      "element_ids": [
+       "p23-1"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "I(r) = I0 exp(−2r²/w²); at r = w the intensity is 1/e² ≈ 13.5 % of the peak.",
+      "element_ids": [
+       "p23-2"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "θ ≈ λ/(πw0); θ half-angle divergence (rad), w0 waist radius (m).",
+      "element_ids": [
+       "p23-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c5",
+    "parent_id": "demo",
+    "title": "Choosing a laser source",
+    "objective": "Select a laser type by wavelength, power and application.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "byapp",
+    "parent_id": "c5",
+    "title": "Lasers by application",
+    "objective": "Match laser types to typical applications.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p25-1",
+     "p25-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Cutting and welding use CO₂ or fibre lasers; marking uses fibre or DPSS; micromachining uses ultrafast or excimer lasers.",
+      "element_ids": [
+       "p25-1"
+      ]
+     },
+     {
+      "kind": "condition",
+      "text": "The material must absorb well at the laser wavelength.",
+      "element_ids": [
+       "p25-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "wl",
+    "parent_id": "c5",
+    "title": "Laser types and wavelengths",
+    "objective": "Name typical wavelengths of common lasers.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p26-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "CO₂ emits 10.6 µm (far infrared).",
+      "element_ids": [
+       "p26-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Nd:YAG and Yb fibre lasers emit near 1.06 µm; frequency doubling gives 532 nm.",
+      "element_ids": [
+       "p26-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Excimer lasers emit in the UV, about 193–351 nm.",
+      "element_ids": [
+       "p26-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "spec",
+    "parent_id": "c5",
+    "title": "Specifying a laser source",
+    "objective": "List the parameters needed to specify a laser.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p27-1",
+     "p27-2"
+    ],
+    "importance": "context",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "A laser is specified by wavelength, power or pulse energy, pulse duration, repetition rate and beam quality (M²).",
+      "element_ids": [
+       "p27-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "Example: a flash-lamp Nd:YAG at 1064 nm with 10 ns, 500 mJ pulses at 20 Hz (10 W average).",
+      "element_ids": [
+       "p27-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "M² = 1 is a perfect Gaussian beam; larger values focus less tightly.",
+      "element_ids": [
+       "p27-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c6",
+    "parent_id": "demo",
+    "title": "Beam expansion and collimation",
+    "objective": "Design simple two-lens beam expanders.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "kep",
+    "parent_id": "c6",
+    "title": "Keplerian beam expander",
+    "objective": "Describe the Keplerian beam expander.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p29-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Two converging lenses spaced f1 + f2 apart; the beam passes through a real focus between them.",
+      "element_ids": [
+       "p29-1"
+      ]
+     },
+     {
+      "kind": "caution",
+      "text": "The internal focus can ionise air with high-power pulsed lasers.",
+      "element_ids": [
+       "p29-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gal",
+    "parent_id": "c6",
+    "title": "Galilean beam expander",
+    "objective": "Describe the Galilean beam expander.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p30-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "A diverging lens then a converging lens; spacing f2 − |f1|; no internal focus.",
+      "element_ids": [
+       "p30-1"
+      ]
+     },
+     {
+      "kind": "comparison",
+      "text": "Shorter than a Keplerian expander and safe for high-power pulses.",
+      "element_ids": [
+       "p30-1"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "The negative lens spreads the beam first, so the light never comes to a point."
+     }
+    ]
+   },
+   {
+    "id": "mp",
+    "parent_id": "c6",
+    "title": "Expansion ratio and output diameter",
+    "objective": "Calculate expansion ratio and output beam size.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p31-1",
+     "p31-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "M = f2/|f1|; D_out = M·D_in.",
+      "element_ids": [
+       "p31-1"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "θ_out = θ_in/M: expanding a beam reduces its divergence.",
+      "element_ids": [
+       "p31-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Because θ ∝ 1/w0, a larger beam diverges less — the same physics as the Gaussian-beam divergence."
+     },
+     {
+      "purpose": "intuition",
+      "text": "Expanding ×10 makes the beam ten times wider and ten times better collimated."
+     }
+    ]
+   },
+   {
+    "id": "coll",
+    "parent_id": "c6",
+    "title": "Beam expander as collimator",
+    "objective": "Explain why expanding a beam improves the focused spot.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p32-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "d ≈ 4λf/(πD); f focal length of the focusing lens, D input beam diameter (1/e²).",
+      "element_ids": [
+       "p32-1"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Expanding before focusing is the standard way to reach smaller spots."
+     }
+    ]
+   },
+   {
+    "id": "c7",
+    "parent_id": "demo",
+    "title": "Beam shaping",
+    "objective": "Explain why and how a Gaussian beam is reshaped.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "bs",
+    "parent_id": "c7",
+    "title": "Purpose of beam shaping",
+    "objective": "Explain why processes need shaped beams.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p34-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Uniform intensity avoids over-processing the centre and under-processing the edge.",
+      "element_ids": [
+       "p34-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "Annealing and large-area ablation benefit from a flat-top beam.",
+      "element_ids": [
+       "p34-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "bsm",
+    "parent_id": "c7",
+    "title": "Beam-shaping methods and components",
+    "objective": "Name common beam-shaping components.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p35-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Common shapers: aspheric refractive shapers, diffractive optical elements and micro-lens homogenisers.",
+      "element_ids": [
+       "p35-1"
+      ]
+     },
+     {
+      "kind": "caution",
+      "text": "Refractive and diffractive shapers need a well-aligned input beam of the design size.",
+      "element_ids": [
+       "p35-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "tophat",
+    "parent_id": "c7",
+    "title": "Top-hat vs Gaussian profiles",
+    "objective": "Compare top-hat and Gaussian intensity profiles.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p36-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "A Gaussian beam peaks at the centre; a top-hat beam is flat with steep edges.",
+      "element_ids": [
+       "p36-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Top-hats give uniform processing; Gaussians focus to the smallest spot.",
+      "element_ids": [
+       "p36-1"
+      ]
+     },
+     {
+      "kind": "caution",
+      "text": "A top-hat only exists near the shaper's design plane; it evolves as it propagates.",
+      "element_ids": [
+       "p36-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c8",
+    "parent_id": "demo",
+    "title": "Beam splitting and dichroic optics",
+    "objective": "Split and combine beams by intensity, polarisation or wavelength.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "split",
+    "parent_id": "c8",
+    "title": "Beam-splitting methods",
+    "objective": "Compare intensity, polarisation and wavelength splitting.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p38-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Plate or cube splitters divide intensity; polarising cubes separate s and p; dichroic mirrors separate wavelengths.",
+      "element_ids": [
+       "p38-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "dich",
+    "parent_id": "c8",
+    "title": "Dichroic mirrors",
+    "objective": "Explain how a dichroic mirror separates wavelengths.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p39-1",
+     "p39-2",
+     "p39-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "A dichroic mirror uses thin-film interference to reflect one band and transmit another.",
+      "element_ids": [
+       "p39-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Its spectrum has a sharp edge at the cut-off wavelength.",
+      "element_ids": [
+       "p39-2"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "A 45° dichroic can reflect 1064 nm while transmitting 532 nm.",
+      "element_ids": [
+       "p39-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "dapp",
+    "parent_id": "c8",
+    "title": "Dichroic mirror applications",
+    "objective": "Give applications of dichroic mirrors in laser systems.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p40-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "example",
+      "text": "A dichroic overlays a red pilot laser on an invisible infrared beam for alignment.",
+      "element_ids": [
+       "p40-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "After frequency doubling, a dichroic separates 532 nm from the remaining 1064 nm.",
+      "element_ids": [
+       "p40-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c9",
+    "parent_id": "demo",
+    "title": "Beam scanning and delivery",
+    "objective": "Scan the beam over the work and deliver it by free space or fibre.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "scan",
+    "parent_id": "c9",
+    "title": "Beam-scanning devices",
+    "objective": "Name the main beam-scanning devices.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p42-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Galvo mirrors are fast and agile; polygon scanners are fastest along lines; stages move the part instead of the beam.",
+      "element_ids": [
+       "p42-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ftheta",
+    "parent_id": "c9",
+    "title": "Galvo scanner with F-theta lens",
+    "objective": "Explain why an F-theta lens is used after galvo mirrors.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p43-1",
+     "p43-2",
+     "p43-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "x = f·θ; x spot position (m), f focal length (m), θ scan angle (rad).",
+      "element_ids": [
+       "p43-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "The F-theta lens gives a flat focal field and a position linear in angle.",
+      "element_ids": [
+       "p43-2"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "A measured 78 µm spot against a designed 75.4 µm spot differs by about 3.4 %.",
+      "element_ids": [
+       "p43-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "deliv",
+    "parent_id": "c9",
+    "title": "Free-space vs fibre delivery",
+    "objective": "Compare free-space and fibre beam delivery.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p44-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Free-space delivery works for any wavelength but needs alignment; fibre delivery is flexible but limited in wavelength and peak power.",
+      "element_ids": [
+       "p44-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fmodes",
+    "parent_id": "c9",
+    "title": "Fibre modes and single-mode output",
+    "objective": "Explain when a fibre delivers a single mode.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p45-1",
+     "p45-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "V = (2πa/λ)·NA < 2.405 for single-mode guidance; a core radius, NA numerical aperture.",
+      "element_ids": [
+       "p45-1"
+      ]
+     },
+     {
+      "kind": "comparison",
+      "text": "Single-mode fibres preserve a Gaussian beam; multimode fibres carry more power with worse beam quality.",
+      "element_ids": [
+       "p45-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "A single-mode fibre output is close to TEM₀₀, so it focuses like the Gaussian beam above."
+     }
+    ]
+   }
+  ],
+  "reviews": [
+   {
+    "round": 1,
+    "findings": [
+     "Synthetic demo: content written for this repository; checked against the slides."
+    ],
+    "corrections": [],
+    "confirming_pass": false
+   },
+   {
+    "round": 2,
+    "findings": [
+     "Confirming pass: no change needed."
+    ],
+    "corrections": [],
+    "confirming_pass": true
+   }
+  ]
+ },
+ "v3": {
+  "nodes": [
+   {
+    "id": "demo",
+    "parent_id": null,
+    "title": "Laser optics for material processing",
+    "kind": "group",
+    "evidence_ids": [],
+    "objective": "Explain how lasers work and how their beams are conditioned and delivered for material processing."
+   },
+   {
+    "id": "c1",
+    "parent_id": "demo",
+    "title": "How a laser works",
+    "objective": "Explain how stimulated emission, pumping and a resonator produce laser light.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "lasing",
+    "parent_id": "c1",
+    "title": "Stimulated emission and population inversion",
+    "objective": "Explain why a population inversion is needed for optical gain.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p03-1",
+     "p03-2",
+     "p03-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "definition",
+      "text": "Stimulated emission: an incoming photon triggers an excited atom to emit a second, identical photon.",
+      "element_ids": [
+       "p03-1"
+      ]
+     },
+     {
+      "kind": "condition",
+      "text": "Optical gain needs a population inversion, N2 > N1.",
+      "element_ids": [
+       "p03-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Lasing uses three- or four-level schemes so the inversion can be maintained by pumping.",
+      "element_ids": [
+       "p03-3"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "In thermal equilibrium the lower level is always more populated, so light is absorbed more than amplified; pumping reverses that balance."
+     }
+    ]
+   },
+   {
+    "id": "resonator",
+    "parent_id": "c1",
+    "title": "Optical resonator",
+    "objective": "Describe how a resonator turns gain into a directional laser beam.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p04-1",
+     "p04-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "A resonator is a pair of mirrors around the gain medium; the output coupler transmits a fraction of the light.",
+      "element_ids": [
+       "p04-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Repeated passes along the axis select a narrow direction, which makes the beam highly directional.",
+      "element_ids": [
+       "p04-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "pumping",
+    "parent_id": "c1",
+    "title": "Pumping methods",
+    "objective": "Compare optical, electrical and diode pumping.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p05-1",
+     "p05-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Optical pumping uses lamps or diodes; electrical pumping uses a gas discharge or an injection current.",
+      "element_ids": [
+       "p05-1",
+       "p05-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Diode pumping is efficient and compact, which is why diode-pumped solid-state and fibre lasers dominate today.",
+      "element_ids": [
+       "p05-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "curved",
+    "parent_id": "c1",
+    "title": "Curved resonator mirrors",
+    "objective": "Explain why curved mirrors make a resonator stable.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p06-1",
+     "p06-2",
+     "p06-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Curved mirrors refocus the light each round trip, so small misalignments no longer push the beam out.",
+      "element_ids": [
+       "p06-1"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "0 ≤ g1·g2 ≤ 1, g_i = 1 − L/R_i; L mirror spacing (m), R_i mirror radius of curvature (m).",
+      "element_ids": [
+       "p06-2"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "A confocal resonator (R1 = R2 = L) gives g1·g2 = 0, a stable and alignment-tolerant design.",
+      "element_ids": [
+       "p06-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c2",
+    "parent_id": "demo",
+    "title": "Properties of laser light",
+    "objective": "Describe what makes laser light different from lamp light.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "props",
+    "parent_id": "c2",
+    "title": "Four key properties of laser light",
+    "objective": "List and explain the four key properties of laser light.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p08-1",
+     "p08-2",
+     "p08-3",
+     "p08-4"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Monochromaticity: the emission occupies a very narrow wavelength band.",
+      "element_ids": [
+       "p08-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Directionality: the beam diverges only slightly (milliradians or less).",
+      "element_ids": [
+       "p08-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Brightness: very high power per unit area and per unit solid angle.",
+      "element_ids": [
+       "p08-3"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Coherence: the waves keep a fixed phase relation in time and across the beam.",
+      "element_ids": [
+       "p08-4"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "powerdens",
+    "parent_id": "c2",
+    "title": "Power density: laser vs lamp",
+    "objective": "Compare the power density of a laser and a lamp.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p09-1",
+     "p09-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "I = P/A; P power (W), A illuminated area (m²).",
+      "element_ids": [
+       "p09-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "1 W into a 100 µm diameter spot: I = 1 / (π·(50×10⁻⁶)²) ≈ 1.3×10⁸ W/m².",
+      "element_ids": [
+       "p09-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Material processing depends on power density, not on power alone: focusing is what makes a modest laser cut metal."
+     }
+    ]
+   },
+   {
+    "id": "linewidth",
+    "parent_id": "c2",
+    "title": "Spectral linewidth",
+    "objective": "Relate spectral linewidth to coherence length.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p10-1",
+     "p10-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "definition",
+      "text": "Linewidth: the width of the emission spectrum, Δλ in wavelength or Δν in frequency.",
+      "element_ids": [
+       "p10-1"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "Coherence length Lc ≈ λ²/Δλ, so a narrower line means a longer coherence length.",
+      "element_ids": [
+       "p10-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c3",
+    "parent_id": "demo",
+    "title": "Coherence",
+    "objective": "Define temporal and spatial coherence and estimate coherence length.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "wave",
+    "parent_id": "c3",
+    "title": "Amplitude, wavelength and phase",
+    "objective": "Describe a light wave by amplitude, wavelength and phase.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p12-1",
+     "p12-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "E = E0 cos(kx − ωt + φ); E0 amplitude, k = 2π/λ wavenumber (rad/m), ω angular frequency (rad/s), φ phase (rad).",
+      "element_ids": [
+       "p12-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Interference depends on the phase difference between waves.",
+      "element_ids": [
+       "p12-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "Phase is the position within one cycle; two waves 'in step' add up, two waves half a cycle apart cancel."
+     }
+    ]
+   },
+   {
+    "id": "tsc",
+    "parent_id": "c3",
+    "title": "Temporal vs spatial coherence",
+    "objective": "Distinguish temporal and spatial coherence.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p13-1",
+     "p13-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Temporal coherence is correlation along the beam (coherence length); spatial coherence is correlation across it (coherence width).",
+      "element_ids": [
+       "p13-1",
+       "p13-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "lc",
+    "parent_id": "c3",
+    "title": "Coherence length",
+    "objective": "Calculate coherence length from linewidth.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p14-1",
+     "p14-2",
+     "p14-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "Lc = c/Δν ≈ λ²/Δλ; c speed of light, Δν linewidth in Hz.",
+      "element_ids": [
+       "p14-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "Δν = 1.5 GHz: Lc = 3×10⁸ / 1.5×10⁹ = 0.2 m.",
+      "element_ids": [
+       "p14-2"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "White light has a coherence length of only about a micrometre.",
+      "element_ids": [
+       "p14-2"
+      ]
+     },
+     {
+      "kind": "condition",
+      "text": "Fringes are visible only while the path difference is shorter than the coherence length.",
+      "element_ids": [
+       "p14-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "mz",
+    "parent_id": "c3",
+    "title": "Measuring coherence with an interferometer",
+    "objective": "Explain how an interferometer measures coherence length.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p15-1",
+     "p15-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "procedure",
+      "text": "Split the beam, lengthen one arm, recombine and record fringe visibility.",
+      "element_ids": [
+       "p15-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "The delay at which visibility falls off gives the coherence length.",
+      "element_ids": [
+       "p15-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Visibility V = (Imax − Imin)/(Imax + Imin) is the measured quantity."
+     }
+    ]
+   },
+   {
+    "id": "wc",
+    "parent_id": "c3",
+    "title": "Spatial coherence width",
+    "objective": "Estimate the coherence width of an extended source.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p16-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "w ≈ λD/s; λ wavelength, D distance to the source, s source size.",
+      "element_ids": [
+       "p16-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Smaller or more distant sources are more spatially coherent.",
+      "element_ids": [
+       "p16-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "filt",
+    "parent_id": "c3",
+    "title": "Improving coherence by filtering",
+    "objective": "Explain how filters improve coherence at the cost of power.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p17-1",
+     "p17-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Spectral filtering improves temporal coherence; a pinhole improves spatial coherence.",
+      "element_ids": [
+       "p17-1"
+      ]
+     },
+     {
+      "kind": "caution",
+      "text": "Filtering always reduces the available intensity.",
+      "element_ids": [
+       "p17-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c4",
+    "parent_id": "demo",
+    "title": "Laser output: pulses and beam modes",
+    "objective": "Describe continuous and pulsed output and the Gaussian beam.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "cwp",
+    "parent_id": "c4",
+    "title": "CW vs pulsed output",
+    "objective": "Compare continuous-wave and pulsed lasers.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p19-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "CW: constant power. Pulsed: energy concentrated in short pulses with peak power far above the average power.",
+      "element_ids": [
+       "p19-1"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Peak power ≈ pulse energy / pulse duration; average power = pulse energy × repetition rate."
+     }
+    ]
+   },
+   {
+    "id": "removal",
+    "parent_id": "c4",
+    "title": "Pulse duration and material removal",
+    "objective": "Explain how pulse duration changes material removal.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p20-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Long pulses remove material thermally (melting, recast); ultrashort pulses ablate with a minimal heat-affected zone.",
+      "element_ids": [
+       "p20-1"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "Heat needs time to diffuse; a femtosecond pulse is over before the heat can travel."
+     }
+    ]
+   },
+   {
+    "id": "qs",
+    "parent_id": "c4",
+    "title": "Q-switching principle",
+    "objective": "Explain how Q-switching produces short, intense pulses.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p21-1",
+     "p21-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "procedure",
+      "text": "Hold the cavity quality (Q) low while pumping, then switch it high to release the stored energy.",
+      "element_ids": [
+       "p21-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Q-switched pulses last nanoseconds and reach peak powers of kW to MW.",
+      "element_ids": [
+       "p21-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "Like a dam: water (energy) accumulates while the gate is shut and rushes out when it opens."
+     }
+    ]
+   },
+   {
+    "id": "qsm",
+    "parent_id": "c4",
+    "title": "Q-switching methods",
+    "objective": "Compare active and passive Q-switches.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p22-1",
+     "p22-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Active Q-switches (acousto-optic, electro-optic) are externally triggered; passive ones use a saturable absorber.",
+      "element_ids": [
+       "p22-1",
+       "p22-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Passive switching is simple and cheap but gives less control of pulse timing.",
+      "element_ids": [
+       "p22-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gauss",
+    "parent_id": "c4",
+    "title": "Transverse modes and the Gaussian beam",
+    "objective": "Describe the TEM₀₀ Gaussian beam and its divergence.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p23-1",
+     "p23-2",
+     "p23-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "definition",
+      "text": "TEM₀₀: the lowest transverse mode, a single spot with a Gaussian intensity profile.",
+      "element_ids": [
+       "p23-1"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "I(r) = I0 exp(−2r²/w²); at r = w the intensity is 1/e² ≈ 13.5 % of the peak.",
+      "element_ids": [
+       "p23-2"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "θ ≈ λ/(πw0); θ half-angle divergence (rad), w0 waist radius (m).",
+      "element_ids": [
+       "p23-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c5",
+    "parent_id": "demo",
+    "title": "Choosing a laser source",
+    "objective": "Select a laser type by wavelength, power and application.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "byapp",
+    "parent_id": "c5",
+    "title": "Lasers by application",
+    "objective": "Match laser types to typical applications.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p25-1",
+     "p25-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Cutting and welding use CO₂ or fibre lasers; marking uses fibre or DPSS; micromachining uses ultrafast or excimer lasers.",
+      "element_ids": [
+       "p25-1"
+      ]
+     },
+     {
+      "kind": "condition",
+      "text": "The material must absorb well at the laser wavelength.",
+      "element_ids": [
+       "p25-2"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "wl",
+    "parent_id": "c5",
+    "title": "Laser types and wavelengths",
+    "objective": "Name typical wavelengths of common lasers.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p26-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "CO₂ emits 10.6 µm (far infrared).",
+      "element_ids": [
+       "p26-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Nd:YAG and Yb fibre lasers emit near 1.06 µm; frequency doubling gives 532 nm.",
+      "element_ids": [
+       "p26-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Excimer lasers emit in the UV, about 193–351 nm.",
+      "element_ids": [
+       "p26-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "spec",
+    "parent_id": "c5",
+    "title": "Specifying a laser source",
+    "objective": "List the parameters needed to specify a laser.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p27-1",
+     "p27-2"
+    ],
+    "importance": "context",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "A laser is specified by wavelength, power or pulse energy, pulse duration, repetition rate and beam quality (M²).",
+      "element_ids": [
+       "p27-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "Example: a flash-lamp Nd:YAG at 1064 nm with 10 ns, 500 mJ pulses at 20 Hz (10 W average).",
+      "element_ids": [
+       "p27-2"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "M² = 1 is a perfect Gaussian beam; larger values focus less tightly.",
+      "element_ids": [
+       "p27-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c6",
+    "parent_id": "demo",
+    "title": "Beam expansion and collimation",
+    "objective": "Design simple two-lens beam expanders.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "kep",
+    "parent_id": "c6",
+    "title": "Keplerian beam expander",
+    "objective": "Describe the Keplerian beam expander.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p29-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Two converging lenses spaced f1 + f2 apart; the beam passes through a real focus between them.",
+      "element_ids": [
+       "p29-1"
+      ]
+     },
+     {
+      "kind": "caution",
+      "text": "The internal focus can ionise air with high-power pulsed lasers.",
+      "element_ids": [
+       "p29-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gal",
+    "parent_id": "c6",
+    "title": "Galilean beam expander",
+    "objective": "Describe the Galilean beam expander.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p30-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "A diverging lens then a converging lens; spacing f2 − |f1|; no internal focus.",
+      "element_ids": [
+       "p30-1"
+      ]
+     },
+     {
+      "kind": "comparison",
+      "text": "Shorter than a Keplerian expander and safe for high-power pulses.",
+      "element_ids": [
+       "p30-1"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "intuition",
+      "text": "The negative lens spreads the beam first, so the light never comes to a point."
+     }
+    ]
+   },
+   {
+    "id": "mp",
+    "parent_id": "c6",
+    "title": "Expansion ratio and output diameter",
+    "objective": "Calculate expansion ratio and output beam size.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p31-1",
+     "p31-2"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "M = f2/|f1|; D_out = M·D_in.",
+      "element_ids": [
+       "p31-1"
+      ]
+     },
+     {
+      "kind": "equation",
+      "text": "θ_out = θ_in/M: expanding a beam reduces its divergence.",
+      "element_ids": [
+       "p31-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Because θ ∝ 1/w0, a larger beam diverges less — the same physics as the Gaussian-beam divergence."
+     },
+     {
+      "purpose": "intuition",
+      "text": "Expanding ×10 makes the beam ten times wider and ten times better collimated."
+     }
+    ]
+   },
+   {
+    "id": "coll",
+    "parent_id": "c6",
+    "title": "Beam expander as collimator",
+    "objective": "Explain why expanding a beam improves the focused spot.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p32-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "d ≈ 4λf/(πD); f focal length of the focusing lens, D input beam diameter (1/e²).",
+      "element_ids": [
+       "p32-1"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "Expanding before focusing is the standard way to reach smaller spots."
+     }
+    ]
+   },
+   {
+    "id": "c7",
+    "parent_id": "demo",
+    "title": "Beam shaping",
+    "objective": "Explain why and how a Gaussian beam is reshaped.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "bs",
+    "parent_id": "c7",
+    "title": "Purpose of beam shaping",
+    "objective": "Explain why processes need shaped beams.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p34-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Uniform intensity avoids over-processing the centre and under-processing the edge.",
+      "element_ids": [
+       "p34-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "Annealing and large-area ablation benefit from a flat-top beam.",
+      "element_ids": [
+       "p34-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "bsm",
+    "parent_id": "c7",
+    "title": "Beam-shaping methods and components",
+    "objective": "Name common beam-shaping components.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p35-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "Common shapers: aspheric refractive shapers, diffractive optical elements and micro-lens homogenisers.",
+      "element_ids": [
+       "p35-1"
+      ]
+     },
+     {
+      "kind": "caution",
+      "text": "Refractive and diffractive shapers need a well-aligned input beam of the design size.",
+      "element_ids": [
+       "p35-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "tophat",
+    "parent_id": "c7",
+    "title": "Top-hat vs Gaussian profiles",
+    "objective": "Compare top-hat and Gaussian intensity profiles.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p36-1"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "A Gaussian beam peaks at the centre; a top-hat beam is flat with steep edges.",
+      "element_ids": [
+       "p36-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Top-hats give uniform processing; Gaussians focus to the smallest spot.",
+      "element_ids": [
+       "p36-1"
+      ]
+     },
+     {
+      "kind": "caution",
+      "text": "A top-hat only exists near the shaper's design plane; it evolves as it propagates.",
+      "element_ids": [
+       "p36-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c8",
+    "parent_id": "demo",
+    "title": "Beam splitting and dichroic optics",
+    "objective": "Split and combine beams by intensity, polarisation or wavelength.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "split",
+    "parent_id": "c8",
+    "title": "Beam-splitting methods",
+    "objective": "Compare intensity, polarisation and wavelength splitting.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p38-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Plate or cube splitters divide intensity; polarising cubes separate s and p; dichroic mirrors separate wavelengths.",
+      "element_ids": [
+       "p38-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "dich",
+    "parent_id": "c8",
+    "title": "Dichroic mirrors",
+    "objective": "Explain how a dichroic mirror separates wavelengths.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p39-1",
+     "p39-2",
+     "p39-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "fact",
+      "text": "A dichroic mirror uses thin-film interference to reflect one band and transmit another.",
+      "element_ids": [
+       "p39-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "Its spectrum has a sharp edge at the cut-off wavelength.",
+      "element_ids": [
+       "p39-2"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "A 45° dichroic can reflect 1064 nm while transmitting 532 nm.",
+      "element_ids": [
+       "p39-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "dapp",
+    "parent_id": "c8",
+    "title": "Dichroic mirror applications",
+    "objective": "Give applications of dichroic mirrors in laser systems.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p40-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "example",
+      "text": "A dichroic overlays a red pilot laser on an invisible infrared beam for alignment.",
+      "element_ids": [
+       "p40-1"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "After frequency doubling, a dichroic separates 532 nm from the remaining 1064 nm.",
+      "element_ids": [
+       "p40-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c9",
+    "parent_id": "demo",
+    "title": "Beam scanning and delivery",
+    "objective": "Scan the beam over the work and deliver it by free space or fibre.",
+    "kind": "group",
+    "evidence_ids": []
+   },
+   {
+    "id": "scan",
+    "parent_id": "c9",
+    "title": "Beam-scanning devices",
+    "objective": "Name the main beam-scanning devices.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p42-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Galvo mirrors are fast and agile; polygon scanners are fastest along lines; stages move the part instead of the beam.",
+      "element_ids": [
+       "p42-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ftheta",
+    "parent_id": "c9",
+    "title": "Galvo scanner with F-theta lens",
+    "objective": "Explain why an F-theta lens is used after galvo mirrors.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p43-1",
+     "p43-2",
+     "p43-3"
+    ],
+    "importance": "core",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "x = f·θ; x spot position (m), f focal length (m), θ scan angle (rad).",
+      "element_ids": [
+       "p43-1"
+      ]
+     },
+     {
+      "kind": "fact",
+      "text": "The F-theta lens gives a flat focal field and a position linear in angle.",
+      "element_ids": [
+       "p43-2"
+      ]
+     },
+     {
+      "kind": "example",
+      "text": "A measured 78 µm spot against a designed 75.4 µm spot differs by about 3.4 %.",
+      "element_ids": [
+       "p43-3"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "deliv",
+    "parent_id": "c9",
+    "title": "Free-space vs fibre delivery",
+    "objective": "Compare free-space and fibre beam delivery.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p44-1"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "comparison",
+      "text": "Free-space delivery works for any wavelength but needs alignment; fibre delivery is flexible but limited in wavelength and peak power.",
+      "element_ids": [
+       "p44-1"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fmodes",
+    "parent_id": "c9",
+    "title": "Fibre modes and single-mode output",
+    "objective": "Explain when a fibre delivers a single mode.",
+    "kind": "learning_point",
+    "evidence_ids": [
+     "p45-1",
+     "p45-2"
+    ],
+    "importance": "supporting",
+    "key_points": [
+     {
+      "kind": "equation",
+      "text": "V = (2πa/λ)·NA < 2.405 for single-mode guidance; a core radius, NA numerical aperture.",
+      "element_ids": [
+       "p45-1"
+      ]
+     },
+     {
+      "kind": "comparison",
+      "text": "Single-mode fibres preserve a Gaussian beam; multimode fibres carry more power with worse beam quality.",
+      "element_ids": [
+       "p45-2"
+      ]
+     }
+    ],
+    "supplements": [
+     {
+      "purpose": "bridge",
+      "text": "A single-mode fibre output is close to TEM₀₀, so it focuses like the Gaussian beam above."
+     }
+    ]
+   }
+  ],
+  "references": [
+   {
+    "node_id": "lasing",
+    "document_id": "demo",
+    "page": 3,
+    "element_ids": [
+     "p03-1",
+     "p03-2",
+     "p03-3"
+    ]
+   },
+   {
+    "node_id": "resonator",
+    "document_id": "demo",
+    "page": 4,
+    "element_ids": [
+     "p04-1",
+     "p04-2"
+    ]
+   },
+   {
+    "node_id": "pumping",
+    "document_id": "demo",
+    "page": 5,
+    "element_ids": [
+     "p05-1",
+     "p05-2"
+    ]
+   },
+   {
+    "node_id": "curved",
+    "document_id": "demo",
+    "page": 6,
+    "element_ids": [
+     "p06-1",
+     "p06-2",
+     "p06-3"
+    ]
+   },
+   {
+    "node_id": "props",
+    "document_id": "demo",
+    "page": 8,
+    "element_ids": [
+     "p08-1",
+     "p08-2",
+     "p08-3",
+     "p08-4"
+    ]
+   },
+   {
+    "node_id": "powerdens",
+    "document_id": "demo",
+    "page": 9,
+    "element_ids": [
+     "p09-1",
+     "p09-2"
+    ]
+   },
+   {
+    "node_id": "linewidth",
+    "document_id": "demo",
+    "page": 10,
+    "element_ids": [
+     "p10-1",
+     "p10-2"
+    ]
+   },
+   {
+    "node_id": "wave",
+    "document_id": "demo",
+    "page": 12,
+    "element_ids": [
+     "p12-1",
+     "p12-2"
+    ]
+   },
+   {
+    "node_id": "tsc",
+    "document_id": "demo",
+    "page": 13,
+    "element_ids": [
+     "p13-1",
+     "p13-2"
+    ]
+   },
+   {
+    "node_id": "lc",
+    "document_id": "demo",
+    "page": 14,
+    "element_ids": [
+     "p14-1",
+     "p14-2",
+     "p14-3"
+    ]
+   },
+   {
+    "node_id": "mz",
+    "document_id": "demo",
+    "page": 15,
+    "element_ids": [
+     "p15-1",
+     "p15-2"
+    ]
+   },
+   {
+    "node_id": "wc",
+    "document_id": "demo",
+    "page": 16,
+    "element_ids": [
+     "p16-1"
+    ]
+   },
+   {
+    "node_id": "filt",
+    "document_id": "demo",
+    "page": 17,
+    "element_ids": [
+     "p17-1",
+     "p17-2"
+    ]
+   },
+   {
+    "node_id": "cwp",
+    "document_id": "demo",
+    "page": 19,
+    "element_ids": [
+     "p19-1"
+    ]
+   },
+   {
+    "node_id": "removal",
+    "document_id": "demo",
+    "page": 20,
+    "element_ids": [
+     "p20-1"
+    ]
+   },
+   {
+    "node_id": "qs",
+    "document_id": "demo",
+    "page": 21,
+    "element_ids": [
+     "p21-1",
+     "p21-2"
+    ]
+   },
+   {
+    "node_id": "qsm",
+    "document_id": "demo",
+    "page": 22,
+    "element_ids": [
+     "p22-1",
+     "p22-2"
+    ]
+   },
+   {
+    "node_id": "gauss",
+    "document_id": "demo",
+    "page": 23,
+    "element_ids": [
+     "p23-1",
+     "p23-2",
+     "p23-3"
+    ]
+   },
+   {
+    "node_id": "byapp",
+    "document_id": "demo",
+    "page": 25,
+    "element_ids": [
+     "p25-1",
+     "p25-2"
+    ]
+   },
+   {
+    "node_id": "wl",
+    "document_id": "demo",
+    "page": 26,
+    "element_ids": [
+     "p26-1"
+    ]
+   },
+   {
+    "node_id": "spec",
+    "document_id": "demo",
+    "page": 27,
+    "element_ids": [
+     "p27-1",
+     "p27-2"
+    ]
+   },
+   {
+    "node_id": "kep",
+    "document_id": "demo",
+    "page": 29,
+    "element_ids": [
+     "p29-1"
+    ]
+   },
+   {
+    "node_id": "gal",
+    "document_id": "demo",
+    "page": 30,
+    "element_ids": [
+     "p30-1"
+    ]
+   },
+   {
+    "node_id": "mp",
+    "document_id": "demo",
+    "page": 31,
+    "element_ids": [
+     "p31-1",
+     "p31-2"
+    ]
+   },
+   {
+    "node_id": "coll",
+    "document_id": "demo",
+    "page": 32,
+    "element_ids": [
+     "p32-1"
+    ]
+   },
+   {
+    "node_id": "bs",
+    "document_id": "demo",
+    "page": 34,
+    "element_ids": [
+     "p34-1"
+    ]
+   },
+   {
+    "node_id": "bsm",
+    "document_id": "demo",
+    "page": 35,
+    "element_ids": [
+     "p35-1"
+    ]
+   },
+   {
+    "node_id": "tophat",
+    "document_id": "demo",
+    "page": 36,
+    "element_ids": [
+     "p36-1"
+    ]
+   },
+   {
+    "node_id": "split",
+    "document_id": "demo",
+    "page": 38,
+    "element_ids": [
+     "p38-1"
+    ]
+   },
+   {
+    "node_id": "dich",
+    "document_id": "demo",
+    "page": 39,
+    "element_ids": [
+     "p39-1",
+     "p39-2",
+     "p39-3"
+    ]
+   },
+   {
+    "node_id": "dapp",
+    "document_id": "demo",
+    "page": 40,
+    "element_ids": [
+     "p40-1"
+    ]
+   },
+   {
+    "node_id": "scan",
+    "document_id": "demo",
+    "page": 42,
+    "element_ids": [
+     "p42-1"
+    ]
+   },
+   {
+    "node_id": "ftheta",
+    "document_id": "demo",
+    "page": 43,
+    "element_ids": [
+     "p43-1",
+     "p43-2",
+     "p43-3"
+    ]
+   },
+   {
+    "node_id": "deliv",
+    "document_id": "demo",
+    "page": 44,
+    "element_ids": [
+     "p44-1"
+    ]
+   },
+   {
+    "node_id": "fmodes",
+    "document_id": "demo",
+    "page": 45,
+    "element_ids": [
+     "p45-1",
+     "p45-2"
+    ]
+   }
+  ],
+  "unresolved_supplements": []
+ },
+ "validation": {
+  "status": "incomplete",
+  "coverage_scope": "Synthetic demo course written for this repository (45 slides); not real course material.",
+  "counts": {
+   "registered": 74,
+   "mapped": 64,
+   "excluded_administrative": 10,
+   "unresolved": 0
+  },
+  "issues": [
+   {
+    "severity": "noncritical",
+    "code": "galvo-spot-deviation",
+    "category": "source_erratum",
+    "description": "The slide states a 5.5 % deviation, but (78 − 75.4)/75.4 ≈ 3.4 %.",
+    "node_id": "ftheta",
+    "element_id": "p43-3",
+    "standard_form": "(78 − 75.4) / 75.4 ≈ 3.4 %"
+   }
+  ]
+ }
+}

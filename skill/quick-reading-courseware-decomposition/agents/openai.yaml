@@ -1,0 +1,14 @@
+interface:
+  display_name: Quick Reading Courseware Decomposition
+  short_description: Build high-quality, source-linked STEM learning maps
+  default_prompt: Use $quick-reading-courseware-decomposition to turn my uploaded
+    courseware into a learning mind map for the Quick Reading viewer.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
