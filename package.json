@@ -22,7 +22,7 @@
     "demo:validate": "node skill/quick-reading-courseware-decomposition/scripts/validate-export.mjs fixtures/demo-laser-optics.json --pdf-dir fixtures"
   },
   "dependencies": {
-    "@xyflow/react": "^12.9.0",
+    "@xyflow/react": "^12.12.1",
     "ajv": "^8.17.1",
     "pdfjs-dist": "6.2.108",
     "react": "^19.2.0",
