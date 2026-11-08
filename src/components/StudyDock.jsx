@@ -9,15 +9,29 @@ import Splitter from './Splitter';
 export default function StudyDock({ mode, onMode, width, onWidth, label, children }) {
   const auto = mode === 'autohide';
   const [open, setOpen] = useState(false), [focusWithin, setFocusWithin] = useState(false);
-  const timer = useRef(null), base = useRef(0), dragging = useRef(false);
+  const timer = useRef(null), base = useRef(0), dragging = useRef(false), dock = useRef(null);
   useEffect(() => { setOpen(false); setFocusWithin(false); }, [mode]);
   useEffect(() => () => clearTimeout(timer.current), []);
   const schedule = (value, delay) => { clearTimeout(timer.current); timer.current = setTimeout(() => setOpen(value), delay); };
   const expanded = !auto || open || focusWithin;
+  // Close on the pointer leaving, checked on every pointer move. mouseleave alone is not
+  // reliable here: the edge tab under the pointer is replaced when the panel opens, so the
+  // browser may never report leaving the panel.
+  useEffect(() => {
+    if (!auto || !open) return;
+    const move = e => {
+      if (dragging.current) return;
+      if (dock.current?.contains(e.target)) { clearTimeout(closing); closing = null; }
+      else if (!closing) closing = setTimeout(() => { closing = null; setOpen(false); }, 450);
+    };
+    let closing = null;
+    document.addEventListener('pointermove', move);
+    return () => { clearTimeout(closing); document.removeEventListener('pointermove', move); };
+  }, [auto, open]);
   const resize = <Splitter label="Resize study panel" value={Math.round(width)}
     onStart={() => { base.current = width; dragging.current = true; }} onDrag={d => onWidth(base.current - d)}
     onEnd={() => { dragging.current = false; }}/>;
-  return <div className={`study-dock ${auto ? 'autohide' : 'pinned'} ${expanded ? 'expanded' : 'collapsed'}`}
+  return <div ref={dock} className={`study-dock ${auto ? 'autohide' : 'pinned'} ${expanded ? 'expanded' : 'collapsed'}`}
     onMouseEnter={() => auto && schedule(true, 120)} onMouseLeave={() => auto && !dragging.current && schedule(false, 450)}
     onFocus={() => auto && setFocusWithin(true)}
     onBlur={e => { if (auto && !e.currentTarget.contains(e.relatedTarget)) setFocusWithin(false); }}>

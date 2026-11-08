@@ -12,16 +12,29 @@ import Splitter from './Splitter';
 export default function SidePanel({ mode, onMode, label, holdOpen, width, onWidth, share, onShare, top, bottom }) {
   const auto = mode === 'autohide';
   const [open, setOpen] = useState(false), [focusWithin, setFocusWithin] = useState(false);
-  const timer = useRef(null), body = useRef(null), base = useRef(0), dragging = useRef(false);
+  const timer = useRef(null), body = useRef(null), base = useRef(0), dragging = useRef(false), aside = useRef(null);
   useEffect(() => { setOpen(false); }, [mode]);
   useEffect(() => () => clearTimeout(timer.current), []);
   const schedule = (value, delay) => { clearTimeout(timer.current); timer.current = setTimeout(() => setOpen(value), delay); };
   const expanded = !auto || open || focusWithin || holdOpen;
+  // Close when the pointer is elsewhere, checked on every pointer move (mouseleave alone can be
+  // missed because the edge tab under the pointer is replaced when the panel opens).
+  useEffect(() => {
+    if (!auto || !open) return;
+    const move = e => {
+      if (dragging.current) return;
+      if (aside.current?.contains(e.target)) { clearTimeout(closing); closing = null; }
+      else if (!closing) closing = setTimeout(() => { closing = null; setOpen(false); }, 450);
+    };
+    let closing = null;
+    document.addEventListener('pointermove', move);
+    return () => { clearTimeout(closing); document.removeEventListener('pointermove', move); };
+  }, [auto, open]);
   const pin = <button className="pin-toggle" aria-controls="source-panel" aria-pressed={!auto}
     aria-label={auto ? 'Pin panel' : 'Auto-hide panel'}
     title={auto ? 'Pin: dock the panel beside the map' : 'Auto-hide: let the panel slide away to a thin edge tab'}
     onClick={() => onMode(auto ? 'pinned' : 'autohide')}>{auto ? '📌 Pin' : '⇥ Auto-hide'}</button>;
-  return <aside id="source-panel" className={`side-panel ${auto ? 'autohide' : 'pinned'} ${expanded ? 'expanded' : 'collapsed'}`}
+  return <aside ref={aside} id="source-panel" className={`side-panel ${auto ? 'autohide' : 'pinned'} ${expanded ? 'expanded' : 'collapsed'}`}
     onMouseEnter={() => auto && schedule(true, 120)} onMouseLeave={() => auto && !dragging.current && schedule(false, 450)}
     onFocus={() => auto && setFocusWithin(true)}
     onBlur={e => { if (auto && !e.currentTarget.contains(e.relatedTarget)) setFocusWithin(false); }}
